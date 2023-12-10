@@ -17,8 +17,9 @@ Create a PostgreSQL database named EmployeeDB using pgAdmin or another PostgreSQ
 Add the database connection details to the Settings.py file in your Django project.
 
 ### settings.py
-5. Run Migrations
-Run the following commands to migrate the database:
+
+## Run Migrations
+## Run the following commands to migrate the database:
 
  1. python manage.py migrate
  2. python manage.py sqlmigrate employee_register 0001
