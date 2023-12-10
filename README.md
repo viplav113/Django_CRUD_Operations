@@ -18,20 +18,6 @@ Add the database connection details to the Settings.py file in your Django proje
 
 ### settings.py
 
-```python
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'EmployeeDB',
-        'USER': 'your_username',
-        'PASSWORD': 'your_password',
-        'HOST': 'localhost',
-        'PORT': '',
-    }
-}
-
-Replace 'your_username' and 'your_password' with your PostgreSQL username and password.
-
 **5. Run Migrations
 Run the following commands to migrate the database:
 
