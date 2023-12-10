@@ -20,9 +20,9 @@ Add the database connection details to the Settings.py file in your Django proje
 5. Run Migrations
 Run the following commands to migrate the database:
 
-python manage.py migrate
-python manage.py sqlmigrate employee_register 0001
-python manage.py migrate
+ 1. python manage.py migrate
+ 2. python manage.py sqlmigrate employee_register 0001
+ 3. python manage.py migrate
 
 6. Run the Application
 Start the Django development server by running:
